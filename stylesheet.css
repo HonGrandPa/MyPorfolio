@@ -1,0 +1,75 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #EBE4D1;
+}
+
+header {
+    margin-left: 28%;
+}
+
+
+.navbar {
+
+    background-color: rgb(38, 87, 124, .8);
+    padding: 0;
+    color: white;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    top: 0;
+    left: 20%;
+    font-size: 2rem;
+    border-radius: 25px;
+
+
+}
+
+.navbar * {
+
+    font-family: 'Cute Font', cursive;
+    text-decoration: 0;
+    color: white;
+    opacity: 0.8;
+}
+
+
+
+h1 {
+    display: block; /* Reset display property to block */
+    text-align: center; /* Center the "HI" text */
+    font-size: 2rem; /* Adjust the font size as needed */
+}
+
+.content {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Cute Font', cursive;
+    font-size: 1.5rem;
+
+}
+
+.mypic {
+    width: 150px;
+    height: 200px;
+    border: 2px solid rgba(180, 180, 179, .8);
+    border-radius: 100px;
+}
+
+h1 {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    text-align: center;
+    align-content: center;
+    margin: 20px;
+    padding-left: 15%;
+    padding-right: 15%;
+    font-size: 4rem;
+
+}
